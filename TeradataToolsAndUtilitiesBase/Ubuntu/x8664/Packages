@@ -1,0 +1,304 @@
+Package: azureaxsmod1720
+Version: 17.20.00.01-1
+Architecture: amd64
+Maintainer: TSME ClientInstall <CT230157@teradata.com>
+Installed-Size: 9736
+Filename: ./azureaxsmod/azureaxsmod1720-17.20.00.01-1.x86_64.deb
+Size: 2404150
+MD5sum: 6a404b7d10d779f38cb02ddbd0baaa65
+SHA1: c59d4e00b6a6aa693cdd3f5a6c1f01fd7a6d58e2
+SHA256: 844f8a3376db7c80beb998cd7dbf9b63f45bf9e5f9de9a48808aa1978667e8ab
+Section: admin
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata Access Module for Azure
+  Copyright 2023 Teradata. All rights reserved.
+
+Package: bteq1720
+Version: 17.20.00.06-1
+Architecture: all
+Maintainer: CT230157<CT230157@teradata.com>
+Installed-Size: 920
+Depends: cliv21720, piom1720, tdicu1720
+Filename: ./bteq/bteq1720-17.20.00.06-1.x86_64.deb
+Size: 271324
+MD5sum: 8d5c5281598671b7ae4fdd0500aa30ae
+SHA1: 1f9c0196f666a563f7d441120b6e314aeb494e70
+SHA256: ae837e4bd7e6df40b5d399862352508c9e01342a906d2cb44ffad8c4b01a20d3
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata BTEQ Utility
+ Copyright 2022 Teradata. All rights reserved.
+Vendor: Teradata Corporation
+
+Package: cliv21720
+Version: 17.20.00.20-1
+Architecture: amd64
+Maintainer: CT230157<CT230157@teradata.com>
+Installed-Size: 4856
+Depends: tdicu1720
+Filename: ./cliv2/cliv21720-17.20.00.20-1.x86_64.deb
+Size: 1569072
+MD5sum: f287bd4803cbfb9eefb7afb7e11ab9ad
+SHA1: d27194293a71da70c9ec926dd373d702d0ff61a3
+SHA256: 463a93d09ed3711c468d4150e3aa83a69a5978361739556fdf0aac1f6adf80ee
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata CLIV2 Library for 64-bit.
+ Copyright 2023 Teradata. All rights reserved.
+
+Package: fastexp1720
+Version: 17.20.00.02-1
+Architecture: amd64
+Maintainer: CT230157<CT230157@teradata.com>
+Installed-Size: 812
+Depends: cliv21720, piom1720
+Filename: ./fastexp/fastexp1720-17.20.00.02-1.x86_64.deb
+Size: 253968
+MD5sum: ea6199dd00ecaa77cd2efa7d575ad467
+SHA1: bbfaef67b295b4bda41921d04d44e862cd10684f
+SHA256: 5018774c3dd0772ee7afda52ccc988a7b87368c9f3dad9b31ec751635b1f27ac
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata FastExport Utility.
+ Copyright 2022 Teradata. All rights reserved.
+
+Package: fastld1720
+Version: 17.20.00.01-1
+Architecture: amd64
+Maintainer: CT230157<CT230157@teradata.com>
+Installed-Size: 624
+Depends: cliv21720, piom1720
+Filename: ./fastld/fastld1720-17.20.00.01-1.x86_64.deb
+Size: 177344
+MD5sum: d62d1f8334834809ddb02ff8e4e65762
+SHA1: 0db03b5a92b1f3f0ecf19071e240d303265380e0
+SHA256: e92c86be277b2a4fefca807ffeaede2053bb269a59316e3c0917bca2bd736c79
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata Fastload Utility.
+ Copyright 2022 Teradata. All rights reserved.
+
+Package: gcsaxsmod1720
+Version: 17.20.00.01-1
+Architecture: amd64
+Maintainer: TSME ClientInstall <CT230157@teradata.com>
+Installed-Size: 7128
+Filename: ./gcsaxsmod/gcsaxsmod1720-17.20.00.01-1.x86_64.deb
+Size: 1901272
+MD5sum: eb94914f68daac1577d951323954afbc
+SHA1: f2bad13b9b21a6157b9d9338a3f1adc6bad3a39f
+SHA256: 01b64a1c0235051b39bcf31b829d0fd3b4279372f6e8832cd1d5eb915dfb5bff
+Section: admin
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata Access Module for Google Cloud Storage
+  Copyright 2023 Teradata. All rights reserved.
+
+Package: jmsaxsmod1720
+Version: 17.20.00.00-1
+Architecture: amd64
+Maintainer: CT230157<CT230157@teradata.com>
+Installed-Size: 208
+Filename: ./jmsaxsmod/jmsaxsmod1720-17.20.00.00-1.x86_64.deb
+Size: 56112
+MD5sum: 0fed83d42a5fd839d512f54db8d11503
+SHA1: edf97cf6991501020e3e0169b201814507d6c698
+SHA256: eb1ad0d80af89599411aa5b7c17daa4d6bf53681f5061944856cc3a9fdcc446a
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata Access Module for JMS
+ Copyright 2022 Teradata. All rights reserved.
+
+Package: kafkaaxsmod1720
+Version: 17.20.00.02-1
+Architecture: amd64
+Maintainer: TSME ClientInstall <CT230157@teradata.com>
+Installed-Size: 5540
+Filename: ./kafkaaxsmod/kafkaaxsmod1720-17.20.00.02-1.x86_64.deb
+Size: 1789998
+MD5sum: 9703e25b27e8e683bb01684908167c74
+SHA1: 410d3d63f2b8031e026e1200c594b4f5a9b122c3
+SHA256: 490fb8118272bf80502ac0c5cebfe501892d0ff2d2288a71de88f5cf36c53514
+Section: admin
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata Access Module for Kafka
+  Copyright 2022 Teradata. All rights reserved.
+
+Package: mload1720
+Version: 17.20.00.02-1
+Architecture: amd64
+Maintainer: CT230157<CT230157@teradata.com>
+Installed-Size: 872
+Depends: cliv21720, piom1720
+Filename: ./mload/mload1720-17.20.00.02-1.x86_64.deb
+Size: 273480
+MD5sum: ba10ba1868a9e6e53ca586e7d5607e2e
+SHA1: c811383fc502767f98ad7406abdcf8abe1996059
+SHA256: 924c5bb80a0803b3d2acbad889351307ab1bb022b9a4251da68627677148d4d6
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata MultiLoad Utility.
+ Copyright 2022 Teradata. All rights reserved.
+
+Package: mqaxsmod1720
+Version: 17.20.00.00-1
+Architecture: amd64
+Maintainer: CT230157<CT230157@teradata.com>
+Installed-Size: 360
+Filename: ./mqaxsmod/mqaxsmod1720-17.20.00.00-1.x86_64.deb
+Size: 64354
+MD5sum: 515af62c260591f39ee9c7393675e22f
+SHA1: 9a1082f8a89fb7c56fb686599f19b1bd5fcc257f
+SHA256: d99ff84fe6f666d447b2cc2bf0fa081731175261de87e451b0797b97900a615e
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata Access Module for Websphere(r)
+ Copyright 2022 Teradata. All rights reserved.
+
+Package: npaxsmod1720
+Version: 17.20.00.00-1
+Architecture: amd64
+Maintainer: CT230157<CT230157@teradata.com>
+Installed-Size: 188
+Filename: ./npaxsmod/npaxsmod1720-17.20.00.00-1.x86_64.deb
+Size: 36570
+MD5sum: acb937fe32495dad5624f5429c3f2f89
+SHA1: b4caa23ecd00498d8202b4dd94b7afe828f096a8
+SHA256: 99383926e46c9a553757eac1fc9f15135327997173b7dc01a2383d24e6baa636
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata Access Module for Named Pipes
+ Copyright 2022 Teradata. All rights reserved.
+
+Package: piom1720
+Version: 17.20.00.02-1
+Architecture: amd64
+Maintainer: TSME ClientInstall <CT230157@teradata.com>
+Installed-Size: 820
+Filename: ./piom/piom1720-17.20.00.02-1.x86_64.deb
+Size: 148952
+MD5sum: 195f237645252b3f1864a7a11d688c56
+SHA1: 846a254b46df1147e10cc5b7d2d9d651a252e536
+SHA256: 364b3e1202e8876a3caf332d2c780ef887220219bf5c6eeea744a26dc718b514
+Section: admin
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata Data Connector Access Module API
+  Copyright 2022 Teradata. All rights reserved.
+
+Package: s3axsmod1720
+Version: 17.20.00.02-1
+Architecture: amd64
+Maintainer: TSME ClientInstall <CT230157@teradata.com>
+Installed-Size: 9772
+Filename: ./s3axsmod/s3axsmod1720-17.20.00.02-1.x86_64.deb
+Size: 2424152
+MD5sum: 52548384e406eaae6488d55ee0e807fa
+SHA1: 13b030bac8a1f78fceb8b79e31c8400379bd9f32
+SHA256: cda46f96f181ca40aa8165db750bea249364dd8f2ecfe86406e4a2c7e34c8eee
+Section: admin
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata Access Module for S3
+  Copyright 2023 Teradata. All rights reserved.
+
+Package: sqlpp1720
+Version: 17.20.00.01-1
+Architecture: amd64
+Maintainer: CT230157<CT230157@teradata.com>
+Installed-Size: 756
+Depends: cliv21720
+Filename: ./sqlpp/sqlpp1720-17.20.00.01-1.x86_64.deb
+Size: 231232
+MD5sum: 3629a37f83ba67b8cb6fc8fc02d51128
+SHA1: be129304d1afef330c2ad0e86b6aced2fc200e6a
+SHA256: b5af04d6e9819d0fe1a05ae96729d5d089d58b88b037856843c03b2958e2d7a7
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata C PreProcessor for 64-bit Linux.
+ Copyright 2022 Teradata. All rights reserved.
+
+Package: tdicu1720
+Version: 17.20.00.08-1
+Architecture: amd64
+Maintainer: CT230157<CT230157@teradata.com>
+Filename: ./tdicu/tdicu1720-17.20.00.08-1.x86_64.deb
+Size: 8766284
+MD5sum: 46409d00bd9fee783c850e22d3a8ff96
+SHA1: aa4a91475dd280c80ae22f7249c0b20a44a3cbe2
+SHA256: 8e39d5d4dd388a31125a7d5ba8797cac76d76f1551b04239ab969f6f5c77c981
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Shared common components for Internationalization for Teradata
+ Copyright 2023 Teradata. All rights reserved.
+
+Package: tdodbc1720
+Version: 17.20.00.13-1
+Architecture: amd64
+Maintainer: CT230157<CT230157@teradata.com>
+Installed-Size: 86176
+Filename: ./tdodbc/tdodbc1720-17.20.00.13-1.x86_64.deb
+Size: 17742364
+MD5sum: 8785b28780a6af03d67fd7f59c9107b3
+SHA1: 28f3fc94a0d2a88c3cd63da2894bdc09f1d8dd74
+SHA256: 4fe2939ccccb4f3b25ef1abd577a40e7ab8f64bde858c3e9f84f8e26ab675c8c
+Priority: standard
+Homepage: http://www.teradata.com
+Description: SIMBA Teradata ODBC driver package for Ubuntu-64bit
+ Copyright 2008-RELEASE_COPYRIGHT_YEAR Teradata. All rights reserved.
+ TERADATA CONFIDENTIAL AND TRADE SECRET
+ Portions of this software are copyrighted
+ by Magnitude Software, Inc. RELEASE_COPYRIGHT_YEAR
+ Portions of this software are copyrighted
+ by Progress Software Corp. 2008-RELEASE_COPYRIGHT_YEAR
+
+Package: tdwallet1720
+Version: 17.20.00.28-1
+Architecture: amd64
+Maintainer: CT230157<CT230157@teradata.com>
+Installed-Size: 8296
+Filename: ./tdwallet/tdwallet1720-17.20.00.28-1.x86_64.deb
+Size: 2404630
+MD5sum: 922e037722f23d9ef40bb68536fc64ae
+SHA1: 121a7cc6d222d21139858ed07768b5b2203e5ec8
+SHA256: 5aef6ef20218d33448e83253410cba532a6746cdbaa5c78e61789ddcb527f877
+Priority: standard
+Homepage: http://www.teradata.com
+Description: Teradata Wallet for 64-bit
+ Copyright 2023 Teradata. All rights reserved.
+
+Package: tptbase1720
+Version: 17.20.00.11-1
+Architecture: amd64
+Maintainer: CT230157<CT230157@teradata.com>
+Installed-Size: 77436
+Depends: cliv21720, tdicu1720
+Filename: ./tptbase/tptbase1720-17.20.00.11-1.x86_64.deb
+Size: 14471670
+MD5sum: 4e2a6facde1eab163a61c7acbdee32e0
+SHA1: cc4c309385127b00524e943b63737464eebf518b
+SHA256: adb7f61a06dd2111c3a4c671582abdb1602e75adfe5b8be382f3d03f2e3b432a
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata Parallel Transporter Base
+ Copyright 2017-2023 Teradata. All rights reserved.
+Vendor: Teradata
+
+Package: tpump1720
+Version: 17.20.00.02-1
+Architecture: amd64
+Maintainer: CT230157<CT230157@teradata.com>
+Installed-Size: 1044
+Depends: tdicu1720, cliv21720, piom1720
+Filename: ./tpump/tpump1720-17.20.00.02-1.x86_64.deb
+Size: 330932
+MD5sum: bf66ea44af8fdd4eaaf1e62a00046b13
+SHA1: a363871878b865874023456090e526489b25b0de
+SHA256: 499a09a2124d2a045f059b26e546c550dc99674323ce846a3cfd567ec5693520
+Priority: Standard
+Homepage: http://www.teradata.com
+Description: Teradata Parallel Data Pump Utility.
+ Copyright 2022 Teradata. All rights reserved.
+

@@ -1,0 +1,120 @@
+Copyright 2017-2022 Teradata.  All Rights Reserved.
+
+
+Teradata Wallet provides secure storage for private information, such as
+Teradata Database passwords, on client computers. The stored information
+can then be used when logging on to the Teradata Database.
+For more information on Teradata Wallet:
+(1) Enter "tdwallet help" at the command prompt.
+(2) See also B035-1100, Security Administration.
+
+
+***********************
+* Supported platforms *
+***********************
+- Canonical Ltd. 64-bit Ubuntu 16.04 on x86-64
+
+Note: x86-64 (64-bit) executables are included in this package.
+
+
+*****************************
+* Installation instructions *
+*****************************
+1. Log on as root.
+
+2. If Teradata Wallet 17.20 for Ubuntu already is installed,
+   remove it as follows:
+   # dpkg -r tdwallet1720
+
+3. Install the software as follows:
+   # dpkg -i tdwallet1720-17.20.00.28-1.x86_64.deb
+
+
+********************
+* Issues addressed *
+********************
+
+Teradata Wallet 17.20.00.21 for Ubuntu
+======================================
+CLNTINS-17038 -- Installation creates a licensing file in PDF format.
+
+Teradata Wallet 17.20.00.17 for Ubuntu
+======================================
+CLNTINS-16923 -- The installation path is added to the PATH environment
+                 variable when using the C shell.
+
+Teradata Wallet 17.20.00.16 for Ubuntu
+======================================
+TDWLT-2947 -- When the data file cannot be opened, the Teradata Wallet
+              software generates an error message with more information.
+
+Teradata Wallet 17.10.00.22 for Ubuntu
+======================================
+TDWLT-2721 -- The tdwallet daemon process does not hang on newer
+              Ubuntu/Linux systems.
+
+Teradata Wallet 17.10.00.07 for Ubuntu
+======================================
+TDWLT-2590 -- Concurrent Teradata Wallet jobs complete reliably.
+
+Teradata Wallet 17.00.00.33 for Ubuntu
+======================================
+TDWLT-517 -- tdwhelper.exe is no longer a set-user-ID program.
+
+Teradata Wallet 17.00.00.23 for Ubuntu
+======================================
+CLNTINS-12085 -- Software installation creates td-ttu.sh and td-ttu.csh
+                 files in /etc/profile.d instead of updating
+                 the /etc/profile and /etc/csh.login files.
+
+Teradata Wallet 17.00.00.10 for Ubuntu
+======================================
+TDWLT-1733 -- Teradata Wallet can concurrently field read requests to a
+              wallet.
+
+Teradata Wallet 17.00.00.09 for Ubuntu
+======================================
+TDWLT-2211 -- The Teradata Wallet software works when the .genuine_TTU
+              file is a character-special file (instead of requiring it
+              to have the set user ID on execution mode bit enabled).
+
+Teradata Wallet 16.20.00.14 for Ubuntu
+======================================
+TDWLT-1912 -- Teradata Wallet software works within a Docker container.
+
+Teradata Wallet 16.20.00.13 for Ubuntu
+======================================
+TDWLT-1907 -- Security is enhanced.
+
+Teradata Wallet 16.20.00.11 for Ubuntu
+======================================
+TDWLT-1573 -- Software that uses Teradata Wallet can use a later
+              release of Teradata Wallet.
+
+Teradata Wallet 16.20.00.10 for Ubuntu
+======================================
+CLNTINS-9190 -- Removal of the Teradata Wallet package does not remove
+                the shell scripts used to switch the active software
+                release if the Teradata ODBC Driver is installed.
+
+Teradata Wallet 16.20.00.01 for Ubuntu
+======================================
+CLNTINS-8355 -- The Teradata Wallet package installs
+                the ThirdPartyLicensesTTU.txt file.
+
+Teradata Wallet 16.20.00.01 for Ubuntu
+======================================
+TDWLT-1727 -- The Teradata Wallet software caches information from
+              the config.xml file into a file named .config.bin in a
+              format that yields increased performance.
+
+Teradata Wallet 16.10.00.08 for Ubuntu
+======================================
+TDWLT-1742 -- The user can install the Teradata Wallet software package
+              over itself without encountering an error.
+
+Teradata Wallet 16.10.00.05 for Ubuntu
+======================================
+CLNTINS-7911 -- Teradata Wallet installation properly
+                sets the mode bits on files and
+                directories.

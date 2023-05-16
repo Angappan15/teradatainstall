@@ -1,0 +1,82 @@
+Teradata ICU is based on International Components for Unicode version 65 and
+provides a C/C++ library for Unicode 12.1 support. It is an installation
+prerequisite for Teradata CLIv2, ODBC Driver for Teradata, and 
+OLE DB Provider for Teradata.
+
+*****************************************************************************
+This file describes:
+* UBUNTU tdicu 17.20.00.08
+
+*****************************************************************************
+Supported Platforms:
+* Ubuntu Linux 16.04 (32-bit and 64-bit)
+
+*****************************************************************************
+How to install this package:
+
+1.  Log on to UBUNTU system as root user.
+
+2.  If necessary, uncompress and untar all files as follows:
+
+      # gunzip <filename.tar.gz>
+      # tar xof <filename.tar>
+
+3.  If applicable, remove previous software as follows:
+
+      # dpkg -r tdicu1720
+
+4.  Install the software as follows:
+
+      # dpkg -i tdicu1720-17.20.00.08-1.x86_64.deb
+
+*****************************************************************************
+List of all Issues addressed in this product since TTU 17.20 release.
+
+Please note: most efixes are not released for all platforms.
+
+*****************************************************************************
+*** EFIX 17.20.00.08 ********************************************************
+*****************************************************************************
+TDICU-2001
+   Fix Integer Overflow in 'UnicodeString::doAppend()' Function
+
+*****************************************************************************
+*** EFIX 17.20.00.05 ********************************************************
+*****************************************************************************
+TDICU-1961
+   (Install)  Add 3rd Party License File as PDF
+
+*****************************************************************************
+*** EFIX 17.20.00.04 ********************************************************
+*****************************************************************************
+TDICU-1933
+   (Install)  Add pkf file to TDICU on LINUX platform
+
+*****************************************************************************
+*** EFIX 17.20.00.03 ********************************************************
+*****************************************************************************
+TDICU-1907
+   (Install)  On a csh shell, TDICU fails to append bin path to the end of 
+   the PATH environment variable.
+
+*****************************************************************************
+*** EFIX 17.20.00.02 ********************************************************
+*****************************************************************************
+TDICU-1893
+   (Install)  TDICU sets the TTU release preceding the previous release as 
+   the active release rather than the prior release during uninstallation
+
+*****************************************************************************
+*** EFIX 17.20.00.01 ********************************************************
+*****************************************************************************
+TDICU-1866
+   (Install) TDICU installation creates wrong softlinks
+TDICU-1870
+   Add option to put the bin path at the end of the PATH environment variable
+
+*****************************************************************************
+*** EFIX 17.20.00.00 ********************************************************
+*****************************************************************************
+TDICU-1831
+   Upgrade Linux Toolset to build ICU 65.1
+   

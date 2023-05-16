@@ -1,0 +1,50 @@
+Copyright 2022, Teradata Corporation.  All rights reserved.
+
+Description:
+
+Enhancement and problem fixed by this release are listed below:
+
+Teradata piom 17.20.00.002
+==========================
+SA-53764
+   Abstract: Build PIOM with new UselDir library
+
+Teradata piom 17.20.00.001
+==========================
+SA-53620 
+   Abstract: Copyright changes
+SA-53619 
+   Abstract: Build PIOM with c++11 LanguageStandard on Linux Platform
+
+
+Teradata piom 17.20.00.000
+==========================
+SA-53559
+   Abstract: Upgrade Linux compiler to build PIOM
+
+*****************************************************************************
+Platform Support: Ubuntu
+
+Software Requirement: None
+
+No need to remove previous version of Teradata Data Connector API.
+*****************************************************************************
+Installation Instructions:
+
+1. piom1720__ubuntu_x8664.17.20.00.02-1.tar.gz is a compressed TARed file that
+   contains the Teradata Data Connector package.
+
+2. It is not necessary to remove the existing version of
+   Teradata Data Connector package on the system.
+
+3. Log on to Ubuntu system as root user.
+
+4. Uncompress the piom1720__ubuntu_x8664.17.20.00.02-1.tar.gz file as follows:
+
+   # gunzip -c piom1720__ubuntu_x8664.17.20.00.02-1.tar.gz | tar xvf -
+
+5. Install the software as follows:
+
+   # cd piom1720
+   # dpkg --install piom1720-17.20.00.02-1.x86_64.deb
+
